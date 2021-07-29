@@ -1,3 +1,5 @@
+/* Base */
+
 @font-face {
     font-family: 'Digital';
     src: url('fonts/389-font.otf');
@@ -16,6 +18,8 @@ body {
     font-family: sans-serif;
     background-color: #eee1d4;
 }
+
+/* Click counter styles */
 
 .click-counter {
     width: 300px;
@@ -53,4 +57,23 @@ body {
 .btn-group__btn:hover {
     cursor: pointer;
     background: rgb(185, 190, 180);
+}
+
+/* Modal styles */
+
+.modal {
+    position: absolute;
+    width: 310px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background: rgb(185, 190, 180);
+    border-radius: 15px;
+    box-shadow: 0 0 0 3000px rgba(0, 0, 0, 0.8);
+}
+
+.d-none {
+    display: none;
 }
