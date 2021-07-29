@@ -1,1 +1,1 @@
-# ClickCounter
+https://siarheichura.github.io/ClickCounter/
